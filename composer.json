@@ -1,7 +1,17 @@
 {
-    "name": "rrodriguezr/div",
-    "description": "Div PHP Template Engine",
-    "require": {
-        "php": ">=5.3.0"
+    "name":"nikmauro/cms39_divengine",
+    "description":"cms39 divengine - Adjusted to use static functions for autoloading",
+    "keywords":["template engine"],
+    "homepage":"http://www.cms39.com",
+    "license":[
+        "GPL-2.0+",
+        "LGPL-3.0"
+    ],
+    "version":"4.8",
+    "require":{
+        "php":">=5.3.0"
+    },
+     "autoload": {
+        "files": ["div.php"]
     }
 }
